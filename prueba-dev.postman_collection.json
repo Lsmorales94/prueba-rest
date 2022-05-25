@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "37306447-530c-4c5c-a76b-3754a5e1cb4a",
+		"name": "prueba-dev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/operacion/calcularFibonacci?tamano=5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/operacion/calcularFibonacci?tamano=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"operacion",
+						"calcularFibonacci"
+					],
+					"query": [
+						{
+							"key": "tamano",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/operacion/calcularCuadratica?a=20&b=30&c=4.5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/operacion/calcularCuadratica?a=20&b=30&c=4.5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"operacion",
+						"calcularCuadratica"
+					],
+					"query": [
+						{
+							"key": "a",
+							"value": "20"
+						},
+						{
+							"key": "b",
+							"value": "30"
+						},
+						{
+							"key": "c",
+							"value": "4.5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
